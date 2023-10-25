@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="main">
+        <div class="top-main">
+            <h3>Temperature converter</h3>
+        </div>
+        <div class="mid1-main">
+            <div class="degree-input-div">
+                <label for="">Degree</label><br>
+                <input type="number" name="" id="degree">
+            </div>
+            <div class="degree-type-div">
+                <label for="">Type</label><br>
+                <select name="temperature" id="temp-type">
+                    <option value="fahrenheit" id="fahrenheit">Fahrenheit</option>
+                    <option value="kelvin" id="kelvin">Kelvin</option>
+                </select>
+            </div>
+        </div>
+        <div class="mid2-main">
+            <div class="result-output-div">
+                <label for="">Result (Celcius)</label><br>
+                <h3 id="celsius"></h3>
+            </div>
+        </div>
+        <div class="bottom-main">
+            <button id="convert-btn">Convert</button>
+        </div>
+    </div>
+    <div class="footer">
+        <p><i class="ri-copyright-line"></i> Temperature Converter by <a href="https://www.linkedin.com/in/ayushkumarmaurya01">AyushMaurya001</a>.</p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
